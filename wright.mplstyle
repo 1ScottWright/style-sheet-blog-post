@@ -1,0 +1,43 @@
+# MatPlotLib style sheet for graphs using colors from Wright Actuarial Brand and basic graph look favored by owner Scott Wright
+# There is some heavy lifting from the fivethirtyeight style as well
+
+lines.linewidth: 2
+
+legend.fancybox: true
+
+axes.prop_cycle: cycler('color', ['66BF6A', '3DC4D7', 'FBC94D', 'F17B33', '002A5C', '6D6F72', 'df9fdf'])
+		# green: 		66BF6A
+		# light blue:	3DC4D7 
+		# yellow:		FBC94D 
+		# orange:		F17B33
+		# dark blue: 	002A5C
+		# grey:			6D6F72
+		# light purple:	df9fdf
+
+axes.labelsize: medium
+axes.labelcolor: 6D6F72
+axes.facecolor: ffffff     # white plotting area
+axes.axisbelow: true
+axes.grid: true
+grid.color: f0f0f0
+grid.linestyle: dotted
+axes.edgecolor: ffffff
+axes.linewidth: 0
+axes.titlesize: x-large
+xtick.color: 6D6F72
+ytick.color: 6D6F72
+
+patch.edgecolor: ffffff
+patch.linewidth: 1
+
+xtick.major.size: 0
+xtick.minor.size: 0
+ytick.major.size: 0
+ytick.minor.size: 0
+
+font.size: 12.0
+
+figure.subplot.left: 0.08
+figure.subplot.right: 0.95
+figure.subplot.bottom: 0.07
+figure.facecolor: ffffff
